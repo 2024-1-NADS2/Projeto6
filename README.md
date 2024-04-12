@@ -8,7 +8,7 @@
 
 ## Alvacoders
 
-## Integrantes: <a href="https://www.linkedin.com/in/matheus-moura-77b7a213a/">Matheus Moura</a>, <a href=""> João Alburquerque </a>, <a href=""> Filipi </a>
+## Integrantes: <a href="https://www.linkedin.com/in/matheus-moura-77b7a213a/">Matheus Moura</a>, <a href=""> João Alburquerque </a>, <a href=""> Filipi Pires </a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno </a>, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/"> Jose Carlos </a> 
 
