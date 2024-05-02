@@ -1,8 +1,8 @@
 import React from 'react'
-import HeaderLogin from '../components/HeaderLogin'
-import CaixaLogin from '../components/CaixaLogin';
+import CaixaLogin from '../components/CaixaLogin'
+import HeaderLogin from '../components/HeaderLogin';
 
-function Login() {
+function Login(){
     return (
         <div>
             <HeaderLogin />
@@ -10,4 +10,5 @@ function Login() {
         </div>
     );
 }
-export default Login;
+
+export default Login

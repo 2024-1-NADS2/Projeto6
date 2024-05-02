@@ -1,19 +1,19 @@
 import styled from 'styled-components'
-import Logo from '../assets/Logo Azul PNG.png'
+import Logo from '../assets/Logo Branco .png'
 
 const HeaderContainer = styled.div
 `
-    width: 100px;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0px;
+    margin: 10;
+    padding: 10px;
     position: fixed;
 
     img {
-        width: 120px;
+        width: 80px;
         height: auto;
     }
 `;

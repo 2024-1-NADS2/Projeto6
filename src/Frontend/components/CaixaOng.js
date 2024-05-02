@@ -101,56 +101,43 @@ img{
 }
 
 
-.register-link p{
+.register-link p a{
     color: #fff;
     text-decoration: none;
     font-weight:600;
 }
 
-.register-link p{
-    color: #fff;
-    font-weight:600;
-}
-
-
-.register-link a:hover{
+.register-link p a:hover{
     text-decoration: underline;
-}
-
-.register-link a{
-    color: #fff;
-    text-decoration: none;
-    font-weight:600;
-    padding: 8px;
 }
 `
 
-const Login = () => {
+const CaixaCadastro = () => {
     return (
         <CaixaContainer>
             <img src={Logo} alt="Imagem" />
             <div className='wrapper'>
                 <form action=''>
-                    <h1>Login</h1>
-                    <div className='register-link'>
-                        <p>Não tem conta? Cadastre-se</p>
-                        <a href='Cadastro'>Adotar </a>
-                        <a href='CadastroOng'>doar </a>
+                    <h1>Cadastro</h1>
+                    <div className='input-box'>
+                        <input type='text' placeholder='Nome' required />
                     </div>
                     <div className='input-box'>
-                        <input type='text' placeholder='Email' required />
+                        <input type='text' placeholder='CNPJ' required />
                     </div>
                     <div className='input-box'>
-                        <input type='password' placeholder='Senha' required />
+                        <input type='password' placeholder='Email' required />
+                    </div>
+                    <div className='input-box'>
+                        <input type='text' placeholder='Senha' required />
                     </div>
                     <div className='remember-forgot'>
-                        <label><input type='checkbox' />Lembre-me</label>
-                        <a href='#'>Esqueceu a senha? </a>
+                        <a href='Login'>Tem uma conta? Conecte-se</a>
                     </div>
-                    <button type='submit'>Login</button>
+                    <button type='submit'>Finalize</button>
                 </form>
             </div>
         </CaixaContainer>
     )
 }
-export default Login
+export default CaixaCadastro

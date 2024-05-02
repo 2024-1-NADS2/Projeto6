@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import React from 'react';
-import LogoEscritaBranco from "../assets/Logo Escrito Azul PNG.png";
+import LogoEscritaBranco from "../assets/Logo Escrito Branco PNG.png";
 
 const HeaderContainer = styled.div`
-    background-color: #3e7397;
+    background-color: #64b3cc;
     width: 100%;
     height: 100px;
     display: flex;
