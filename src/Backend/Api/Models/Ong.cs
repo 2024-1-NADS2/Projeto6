@@ -1,12 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ServidorExemplo.Models
+namespace WebApplication2.Models
 {
-
-    public class Usuario
+    public class Ong
     {
         [Key]
-        public int id_usuario { get; set; }
+        public int id_ong { get; set; }
 
         [Required]
         [MaxLength(50)]
@@ -15,6 +14,10 @@ namespace ServidorExemplo.Models
         [Required]
         [MaxLength(255)]
         public string senha_hash { get; set; }
+
+        [Required]
+        [MaxLength(14)]
+        public string cnpj { get; set; }
 
         [Required]
         [MaxLength(50)]

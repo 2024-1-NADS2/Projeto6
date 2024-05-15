@@ -1,6 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Api_ThunderCat.Data;
-using System;
+using Microsoft.EntityFrameworkCore;
+using ServidorExemplo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

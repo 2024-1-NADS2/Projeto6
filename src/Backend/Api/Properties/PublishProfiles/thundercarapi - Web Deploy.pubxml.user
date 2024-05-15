@@ -6,8 +6,8 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsqiUNYKDmk+wCmgRIhhKQQAAAAACAAAAAAAQZgAAAAEAACAAAAAwsYnjMofjIUgs9gUQ0BMXK9NP0xNoTGz8DK/Oh8GwvgAAAAAOgAAAAAIAACAAAACt/fE/giM7Z12jusWkCA9GQc+kFCVB3YDt6jWglRGPf4AAAADtguo1ecoHiKpTS6eiR2/oSmpokSwvc4Y6ABj8V71ic64UgbOyvHVzcU92ComI0g2/RKZBIarjSn+BgF8Bhl4NILopcDVhspjqdUN8jiuet3q4JQg/rLUQWP7N/HXVAu91FHfLk0h95lNZCkxyKSRzK6MXajqdtHTEDJ8KnPEsUUAAAABUErmMx0hgGm/fuCWgfiief5XHGCM6cWOu2Tj1d2YHMZgoOdv3tWRbJ9SKVyUZftwe7R3DVjTDVct/gamMT3B8</EncryptedPassword>
-    <History>False|2024-05-13T17:15:21.5310984Z;False|2024-05-13T14:04:28.4945820-03:00;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsqiUNYKDmk+wCmgRIhhKQQAAAAACAAAAAAAQZgAAAAEAACAAAAAtex9GXrFzMdFz9nbwYzAgPHxpC2h3MznoyDOul0v2fgAAAAAOgAAAAAIAACAAAAA3/ZsTWsYmG2XQh/9trTU24V47h/aKPWKhBbNcaBRMo4AAAAC2R2uP5JcDPH7tY1KcTaIJjixuoduPWK3s7T7kCk0jsamMeDGFGFSDjaSKd5ILvKIvA31eellaraWHuGND2UriBZsOp78YEkH8ucJV5xPn+xh/1G2ALz+w3mGd6R+rZx2dtSXkoK/E7QFm+T0/hKY7ETjor3oa3/6MU7zIi1znuEAAAACUJF/6VoRNfN//3MJp8UbqpAcoifV+UtFt0BSfvdbBJ0Mk5g7ijvIzPFCzvgaav0E3cyp7JYT00ZR/04Lphnlq</EncryptedPassword>
+    <History>False|2024-05-13T16:23:41.3444207Z;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
