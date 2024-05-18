@@ -5,6 +5,8 @@ import Feed from './pages/Feed';
 import Login from './pages/Login';
 import Cadastro from './pages/CadastroUsuario';
 import CadastroOng from './pages/CadastroOng';
+import Forgot from './pages/Forgot';
+
 // import GlobalStyles from './styles/GlobalStyle'
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
                 <Route path="/feed" element={<Feed />} />
                 <Route path="/cadastro" element={<Cadastro />}/>
                 <Route path="/cadastroOng" element={<CadastroOng />}/>
+                <Route path="/forgot" element={<Forgot />}/>
             </Routes>
         </Router>
     );
