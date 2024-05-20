@@ -1,0 +1,105 @@
+.menu-principal {
+  background-color: #64B3CC;
+  padding: 15px 20px; /* Aumentando o padding para uma barra de navegação mais espessa */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Ajustando a altura para 80px */
+  position: fixed; /* Adicionando posição fixa */
+  width: 100%; /* Definindo a largura para ocupar 100% da largura da tela */
+  top: 0; /* Posicionando no topo da tela */
+  z-index: 1000; /* Definindo a ordem de empilhamento */
+}
+
+.logo-container,
+.search-container,
+.icon-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  justify-content: center; /* Centralizando horizontalmente o conteúdo */
+  align-items: center; /* Centralizando verticalmente o conteúdo */
+  border-radius: 20px; /* Arredondando os cantos da barra de pesquisa */
+  overflow: hidden; /* Para garantir que a borda arredondada funcione */
+}
+
+.search-input {
+  padding: 13px; /* Aumentando o padding para uma caixa de pesquisa mais espessa */
+  left: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+  text-transform: capitalize; /* Convertendo a primeira letra para maiúscula */
+  border-radius: 20px; /* Arredondando os cantos da caixa de pesquisa */
+  text-align: center; /* Centralizando o texto */
+}
+
+.search-input::placeholder {
+  text-transform: none; /* Mantendo o texto do placeholder em minúsculas */
+}
+
+.logo {
+  height: 60px; /* Ajustando a altura da imagem para 60px */
+}
+
+.feed-icon,
+.profile-icon,
+.logout-icon {
+  color: #fff;
+  font-size: 28px; /* Ajustando o tamanho do ícone para 28px */
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profile-icon:hover,
+.logout-icon:hover {
+  color: #ddd;
+}
+
+.icon-spacing {
+  margin-left: 12px; /* Adicione o espaçamento horizontal desejado entre os ícones */
+}
+
+/* Adicionando regras de mídia para telas menores */
+@media screen and (max-width: 768px) {
+  .menu-principal {
+    flex-direction: column; /* Empilhando os itens verticalmente */
+    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    padding: 15px; /* Reduzindo o padding para telas menores */
+  }
+  
+  .search-container {
+    margin-top: 10px; /* Espaçamento superior menor para a barra de pesquisa */
+  }
+  
+  .feed-icon,
+  .profile-icon,
+  .logout-icon {
+    margin-left: 0; /* Removendo o espaçamento à esquerda para os ícones */
+    margin-top: 10px; /* Espaçamento superior para os ícones */
+  }
+  
+  .icon-spacing {
+    margin-left: 0; /* Removendo o espaçamento horizontal entre os ícones */
+  }
+}
+
+/* Adicionando regras de mídia para telas com largura máxima de 480px */
+@media screen and (max-width: 480px) {
+  .search-input {
+    max-width: 300px; /* Reduzindo a largura máxima da caixa de pesquisa */
+  }
+
+  .feed-icon,
+  .profile-icon,
+  .logout-icon {
+    font-size: 24px; /* Reduzindo o tamanho do ícone para telas menores */
+  }
+}
+
+

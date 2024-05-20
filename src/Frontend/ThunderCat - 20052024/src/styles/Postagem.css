@@ -1,0 +1,185 @@
+.feed-container {
+  margin: 0 auto;
+  background-color: #d5f6ff;
+}
+
+.postagem-container {
+  background-color: #d5f6ff;
+  margin: 20vh auto 0;
+  /* Margem superior de 10% da altura da tela, margens laterais automáticas */
+  display: flex;
+  justify-content: center;
+  /* Centralizar na horizontal */
+  align-items: center;
+  /* Centralizar na vertical */
+  min-height: calc(100vh - 200px - 40px);
+  /* Altura mínima para ocupar todo o espaço menos a altura do cabeçalho e uma margem superior mínima de 40px */
+}
+
+
+.postagem {
+  margin: 0 auto;
+  width: 70%;
+  /* Ocupar toda a largura do contêiner */
+  max-width: 1000px;
+  /* Definir uma largura máxima para a postagem */
+  background-color: #ffffff;
+  /* Cor de fundo branca para destacar o conteúdo */
+  border: 1px solid #d5f6ff;
+  padding: 0;
+  /* Remover padding para que todos os componentes ocupem a largura completa */
+  margin-bottom: 40px;
+  /* Adicionar margem inferior para criar espaço entre as postagens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* Adicionar box shadow */
+  border-radius: 20px;
+  /* Aplicar border-radius à postagem */
+  overflow: hidden;
+  /* Garantir que os filhos respeitem o border-radius */
+}
+
+.informacoes {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FAAF83;
+  border: none;
+}
+
+.informacoes .nome-do-usuario {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  margin-left: 10px;
+  /* Ajustar margem para alinhar corretamente dentro do border-radius */
+}
+
+.informacoes .usuario {
+  display: flex;
+  align-items: center;
+}
+
+.informacoes .miniaturaperfil {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  /* Ajustar margem para alinhar corretamente dentro do border-radius */
+  padding: 0;
+}
+
+.miniaturaperfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.capa-post {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.conteudo-da-postagem {
+  width: 100%;
+  padding: 10px 20px;
+  overflow: hidden;
+  /* Adicionando overflow:hidden para evitar que o conteúdo ultrapasse o espaço */
+  margin-top: 0;
+}
+
+.descricao .span {
+  font-weight: bold;
+  /* Deixar o texto em negrito */
+  color: #333f;
+  /*Definir uma cor azul para o texto do usuário */
+  margin-right: 5px;
+  /* Adicionar um pequeno espaço à direita para separar o texto do usuário */
+}
+
+.descricao {
+  margin: 10px 0;
+  font-size: 16px;
+  /* Aumentar o tamanho da fonte */
+  line-height: 24px;
+  /* Aumentar o espaçamento entre linhas */
+  color: #333;
+  /* Definir cor do texto */
+  word-wrap: break-word;
+  /* Quebrar palavras para caber no espaço */
+}
+
+.tempo-post {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.reacoes-icones {
+  width: 100%;
+  /* Definir a largura para ocupar toda a largura do contêiner pai */
+  display: flex;
+  justify-content: flex-start;
+  /* Alinhar os ícones à direita */
+  align-items: center;
+  padding: px 20px;
+  /* Ajustar padding para aproximar os ícones do conteúdo */
+  margin-top: 0;
+  /* Reduzir margem superior para aproximar do conteúdo */
+}
+
+.reacoes-icones .icon {
+  height: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #FAAF83;
+  /* Alterar para preto */
+}
+
+.reacoes-icones .icon:hover,
+.reacoes-icones .icon.curtido {
+  color: #fd833c;
+  /* Alterar para laranja */
+}
+
+@media screen and (max-width: 576px) {
+  .postagem-container {
+    margin: 50px auto 0;
+    /* Margem superior de 50px e centraliza horizontalmente */
+  }
+
+  .postagem {
+    width: 90%;
+    /* Reduz a largura da postagem para ocupar 90% da largura da tela */
+  }
+
+  .informacoes .nome-do-usuario {
+    font-size: 12px;
+    /* Reduz o tamanho do nome do usuário nas postagens */
+  }
+
+  .comentario-msg {
+    width: 60%;
+    /* Reduz a largura do campo de comentário */
+  }
+
+  .reacoes-icones {
+    padding: px 10px;
+    /* Ajusta o padding para telas menores */
+    margin-top: 5px;
+    /* Ajusta a margem superior das reações nas postagens */
+    justify-content: flex-start;
+    /* Garantir alinhamento à direita em telas menores */
+  }
+
+  .capa-post {
+    width: 100%;
+    /* Garantindo que a imagem da postagem ocupe toda a largura */
+  }
+}
