@@ -22,12 +22,17 @@
 O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nos <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas (ONU)</a>. Com isso, desenvolvemos um site que visa facilitar o processo de adoção de pets, criando uma rede social específica para esse propósito.
 
 Nosso projeto foi planejado para atender aos Objetivos de Desenvolvimento Sustentável da ONU. A primeira etapa após definir o projeto foi identificar quais objetivos ele atenderia. Descobrimos que nosso projeto está alinhado com vários objetivos, incluindo:
-
+<br><br>
 ODS 2: Fome Zero e Agricultura Sustentável
+<br><br>
 ODS 3: Saúde e Bem-Estar
+<br><br>
 ODS 8: Trabalho Decente e Crescimento Econômico
+<br><br>
 ODS 9: Indústria, Inovação e Infraestrutura
+<br><br>
 ODS 12: Consumo e Produção Responsáveis
+<br><br>
 Com todos os nossos objetivos definidos, iniciamos o desenvolvimento do site!
 
 ## 🛠 Instalação
