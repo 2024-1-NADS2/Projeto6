@@ -16,48 +16,30 @@
 ## Descrição
 
 <p align="center">
-<img src="imagens/Logo Escrito 2 Azul PNG.png" alt="NOME DO JOGO" border="0">
-  Projeto by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva e Murilo Dias da Silva</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<img src="imagens/capa.jpeg" alt="ThunderCat" border="0">
+  Projeto by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva e Murilo Dias da Silva</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
 </p>
+O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nos <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas (ONU)</a>. Com isso, desenvolvemos um site que visa facilitar o processo de adoção de pets, criando uma rede social específica para esse propósito.
 
+Nosso projeto foi planejado para atender aos Objetivos de Desenvolvimento Sustentável da ONU. A primeira etapa após definir o projeto foi identificar quais objetivos ele atenderia. Descobrimos que nosso projeto está alinhado com vários objetivos, incluindo:
 
-O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nas <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de desenvolvimento Sustentável da Organização das Nações Unidas(ONU)<a/>, com a ajuda da Internet das coisas.
-Com isso desenvolvemos um projeto em que visa realizar o tratamento da água de reuso das chuvas para uso da população.
-<br><br>
-Já que nosso projeto deveria fazer sentido com os Objetivos de Desenvolvimento Sustentavél da ONU, a primeira coisa após termos decidido qual seria o o projeto, fomos então indentificar em qual Objetivos de desenvolvimento Sustentável o nosso projeto se enquadrava sendo dois objetivos, conforme abaixo:
-<br><br>
-Atender ao objetivo 6.3 da ODS 6- Agua potável e saneamento: Reduzindo à metade a proporção de águas residuais não tratadas e aumentando substancialmente a reciclagem e reutilização segura globalmente (ONU)
-<br><br>
-Atender ao objetivo 12.2 da ODS 12- consumo e produção resposável)  Até 2030, alcançar a gestão sustentável e o uso eficiente dos recursos naturais (ONU).
-<br><br>
-Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso projeto, onde vamos captar a água da chuva e realizar o tratamento dessa água e disponibilizar para a população para a lavagem de carros ou qualquer outro serviços que o individuo precisar utilizar, ou seja o nosso projjeto conssite em três fases, conforme abaixo:
-<br><br>
-1° Captação da água para um reservatório.
-<br><br>
-2° Estação de tratamento da água.
-<br><br>
-3° Disponibilização da água tratada
-
-<br><br>
+ODS 2: Fome Zero e Agricultura Sustentável
+ODS 3: Saúde e Bem-Estar
+ODS 8: Trabalho Decente e Crescimento Econômico
+ODS 9: Indústria, Inovação e Infraestrutura
+ODS 12: Consumo e Produção Responsáveis
+Com todos os nossos objetivos definidos, iniciamos o desenvolvimento do site!
 
 ## 🛠 Instalação
 
-<br><br>
-Nesta etapa vamos demosntrar como fazer a programação no do código para o arduino e esp32 para que esta localizado na pasta src.
+Nesta etapa, vamos demonstrar como programar nosso frontend e backend, que estão localizados na pasta src.
 
-1° Baixar a IDLE do Arduino para fazer o código e realizar o upload para o arduino e esp32.
-<br><br>
-2° Indentificar qual o tipo de arduino e esp32 que você esta utilizando e baixe as bibliotecas caso necessário, nós utilizamos o Arduino UNO e o Esp32.
-<br><br>
-3° Separamos os componentes do nosso projeto entre o arduino e esp321 para não termos divergencias nos dados coletados pelo esp32.
-<br><br>
-4° Desenvolvemos o codigo para o arduino para o gerenciamento das bombas.
-<br><br>
-5° Desenvolvemos o codigo para o eps32 para o gerenciamento das bombas.
-<br><br>
-
-Abaixo na configurção para desenvolvimento está os componentes que utilizamos para a montagem do nosso projeto.
-
+Desenvolvemos nosso front-end no Figma para definir a aparência da página e, em seguida, implementamos no React todas as páginas da rede social para adoção de pets.
+Desenvolvemos nosso banco de dados para armazenar os dados dos usuários e postagens.
+Desenvolvemos nossa API em C#, que define como os dados dos usuários e postagens vão se comportar na nossa rede social.
+Configuramos um servidor na Azure para hospedar nosso projeto e facilitar ajustes de qualquer lugar.
+Conectamos o front-end com o back-end, integramos ao nosso servidor e também ao Netlify.
+Abaixo, na configuração de desenvolvimento, estão os componentes que utilizamos para montar nosso projeto.
 
 <br><br>
 ## 💻 Configuração para Desenvolvimento
