@@ -61,10 +61,9 @@ Além disso, utilizamos as seguintes ferramentas para colocar nosso site no ar:
 - Netlify para conectar todas as partes
 
 Com todos os sensores devidamente conectados, conseguimos colocar nosso site no ar com sucesso.
-
-🗃 Histórico de Lançamentos
-A cada atualização, os detalhes são lançados aqui:
-
+<br><br>
+##🗃 Histórico de Lançamentos
+<br><br>
 - **0.2.2 - 22/05/2024**
   - Montamos a versão atual do projeto.
   - MUDANÇA: Conectamos a API ao banco de dados e ao nosso React.
