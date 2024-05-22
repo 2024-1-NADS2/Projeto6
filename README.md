@@ -4,125 +4,98 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# ThunderCats
 
-## Nome do Grupo
+## Alvacoders
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="">Matheus Moura</a>, <a href="">Filipi Pires</a>, <a href="">João Albuquerque</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno </a>, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/"> Jose Carlos </a> 
+
 
 ## Descrição
-
+<br><br>
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="/imagens/assets/Logo Escrito 2 Azul PNG.png" alt="ThunderCat" border="0">
+  <br><br>
+  Projeto by <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">AquaCicle</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva, Felipi Amorim e João Albuquerque </a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
 </p>
+O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nos <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas (ONU)</a>. Com isso, desenvolvemos um site que visa facilitar o processo de adoção de pets, criando uma rede social específica para esse propósito.
 
+Nosso projeto foi planejado para atender aos Objetivos de Desenvolvimento Sustentável da ONU. A primeira etapa após definir o projeto foi identificar quais objetivos ele atenderia. Descobrimos que nosso projeto está alinhado com vários objetivos, mas focamos na seguinte:
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+ODS 3: Saúde e Bem-Estar
 <br><br>
-May the force be with you!
+ODS 3.4: reduzir em um terço a mortalidade prematura por doenças não transmissíveis ( DNTs ) por meio de prevenção e tratamento, e promover a saúde mental e o bem-estar.
 <br><br>
-
-## 🛠 Estrutura de pastas
-
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
+Com todos os nossos objetivos definidos, iniciamos o desenvolvimento do site!
 
 ## 🛠 Instalação
 
-<b>Android:</b>
+Nesta etapa, vamos demonstrar como programar nosso frontend e backend, que estão localizados na pasta src.
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+Desenvolvemos nosso front-end no Figma para definir a aparência da página e, em seguida, implementamos no React todas as páginas da rede social para adoção de pets.
+Desenvolvemos nosso banco de dados para armazenar os dados dos usuários e postagens.
+Desenvolvemos nossa API em C#, que define como os dados dos usuários e postagens vão se comportar na nossa rede social.
+Configuramos um servidor na Azure para hospedar nosso projeto e facilitar ajustes de qualquer lugar.
+Conectamos o front-end com o back-end, integramos ao nosso servidor e também ao Netlify.
+Abaixo, na configuração de desenvolvimento, estão os componentes que utilizamos para montar nosso projeto.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
+<br><br>
 ## 💻 Configuração para Desenvolvimento
+<br><br>
+<p align="center">
+<!-- <img src="imagens/PROJETO.jpeg" alt="NOME DO JOGO" border="0"> -->
+  
+No nosso projeto, utilizamos os seguintes elementos para criar nossa rede social!
+Utilizamos três tipos de tecnologia para garantir que nosso projeto seja desenvolvido com sucesso:
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+- React e Node.js
+- Web API em C#
+- Banco de Dados em C#
 
-Para abrir este projeto você necessita das seguintes ferramentas:
+Além disso, utilizamos as seguintes ferramentas para colocar nosso site no ar:
 
--<a href="https://godotengine.org/download">GODOT</a>
+- Servidor da Azure
+- Netlify para conectar todas as partes
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+Com todos os sensores devidamente conectados, conseguimos colocar nosso site no ar com sucesso.
+</p>
 
-## 🗃 Histórico de lançamentos
+<br><br>
+##🗃 Histórico de Lançamentos
+<br><br>
+- **0.2.2 - 22/05/2024**
+  - Montamos a versão atual do projeto.
+  - MUDANÇA: Conectamos a API ao banco de dados e ao nosso React.
 
-A cada atualização os detalhes devem ser lançados aqui.
+- **0.2.1 - 10/05/2024**
+  - MUDANÇA: Desenvolvemos a nossa API.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+- **0.2.0 - 01/05/2024**
+  - MUDANÇA: Desenvolvemos o feed infinito.
+  - ADD: Desenvolvemos o nosso banco de dados.
+
+- **0.1.1 - 20/04/2024**
+  - CONSERTADO: Convertamos o nosso projeto para React.
+
+- **0.1.0 - 15/04/2024**
+  - Desenvolvemos o protótipo no Figma do nosso projeto.
+  - MUDANÇA: Fizemos o HTML do projeto.
+
+- **0.0.1 - 10/04/2024**
+  - Desenvolvemos o protótipo no Figma do nosso projeto.
+
 
 ## 📋 Licença/License
 
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">AquaCicle</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva, Felipi Amorim e João Albuquerque </a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
 
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
-
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1.
+2. 
+3. 
+4. 
