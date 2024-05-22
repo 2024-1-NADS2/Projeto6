@@ -47,8 +47,8 @@ Abaixo, na configuração de desenvolvimento, estão os componentes que utilizam
 <br><br>
 <p align="center">
 <!-- <img src="imagens/PROJETO.jpeg" alt="NOME DO JOGO" border="0"> -->
+  
 No nosso projeto, utilizamos os seguintes elementos para criar nossa rede social!
-
 Utilizamos três tipos de tecnologia para garantir que nosso projeto seja desenvolvido com sucesso:
 
 - React e Node.js
