@@ -46,7 +46,7 @@ const Entrada = styled.input`
     border-radius: 40px;
     font-size: 16px;
     color: #000000;
-    padding-left: 20px;
+    padding-left: 10px;
     margin-bottom: 20px;
 `;
 

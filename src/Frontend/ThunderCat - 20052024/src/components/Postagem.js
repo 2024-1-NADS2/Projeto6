@@ -1,11 +1,13 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart as solidHeart, faPaperPlane  } from '@fortawesome/free-solid-svg-icons'; // Importe o ícone de coração sólido
+import { faHeart as solidHeart, faPaperPlane } from '@fortawesome/free-solid-svg-icons'; // Importe o ícone de coração sólido
 import AvatarImage1 from '../assets/avatar.jpg';
 import PostImage1 from '../assets/HD-wallpaper-reddeadredemption2-games-gta-online-rdr2-red-dead-redemption-2-rockstar-xbox.jpg';
 import GlobalStyle from '../styles/GlobalStyles';
 import { faHeart } from '@fortawesome/free-regular-svg-icons'; // Importe o ícone de coração vazio
 import '../styles/Postagem.css';
+
+
 
 function Postagem() {
     const endPageRef = useRef(null);
@@ -14,6 +16,7 @@ function Postagem() {
     const [curtidas, setCurtidas] = useState(new Array(numPostagens).fill(false)); // Estado para controlar as curtidas de cada postagem
 
     useEffect(() => {
+        
         observerRef.current = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting && entry.target === endPageRef.current) {
@@ -67,7 +70,7 @@ function Postagem() {
                     </div>
                     <p className="descricao">
                         <span className="span">Usuario</span>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sint aut optio 
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sint aut optio
                         deseamet provident eum ullam? Debitis laborum, amet ipsa nesciunt mollitia reiciendis rerum
                         fugiat quia facilis exercitationem libero?
                     </p>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header-Perfil';
-import ImagePerfil from '../assets/foto14.png';
+import ImagePerfil from '../assets/avatar.jpg';
 import PerfilText from '../components/PerfilText';
 import PerfilPost from '../components/PerfilPost';
 import PostPerfil from '../assets/Post1.jpg';
@@ -8,6 +8,7 @@ import PostPerfil2 from '../assets/post2.jpg';
 import PostPerfil3 from '../assets/post3.jpg';
 import GlobalStyle from '../styles/GlobalStyles';
 import Footer from '../components/Footer';
+import Chat2 from '../components/Chat'
 
 function Perfil() {
     return (
@@ -35,6 +36,7 @@ function Perfil() {
                 ]}
             />
             <Footer />
+            <Chat2 />
         </div>
     );
 }
