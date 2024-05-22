@@ -47,37 +47,46 @@ Abaixo, na configuração de desenvolvimento, estão os componentes que utilizam
 <br><br>
 <p align="center">
 <!-- <img src="imagens/PROJETO.jpeg" alt="NOME DO JOGO" border="0"> -->
-No nosso projeto utilizamos os seguintes elementos para criar nossa rede social!
+No nosso projeto, utilizamos os seguintes elementos para criar nossa rede social!
 
 Utilizamos três tipos de tecnologia para garantir que nosso projeto seja desenvolvido com sucesso:
 
-React e Node.js
-Web API em C#
-Banco de Dados em C#
+- React e Node.js
+- Web API em C#
+- Banco de Dados em C#
+
 Além disso, utilizamos as seguintes ferramentas para colocar nosso site no ar:
 
-Servidor da Azure
-Netlify para conectar todas as partes
+- Servidor da Azure
+- Netlify para conectar todas as partes
+
 Com todos os sensores devidamente conectados, conseguimos colocar nosso site no ar com sucesso.
 
 🗃 Histórico de Lançamentos
 A cada atualização, os detalhes são lançados aqui:
 
-0.2.2 - 22/05/2024
-Montamos a versão atual do projeto.
-MUDANÇA: Conectamos a api ao banco de dados e ao nosso react.
-0.2.1 - 10/05/2024
-MUDANÇA: Desnvolvemos a nossa API
-0.2.0 - 01/05/2024
-MUDANÇA: Desenvolvemos o feed infinito.
-ADD: Desenvolvemos o nosso banco e dados
-0.1.1 - 20/04/2024
-CONSERTADO: Convertemos o nosso projeto para react.
-0.1.0 - 15/04/2024
-Desencvolvemos o Figma prototipo do nosso projeto.
-MUDANÇA: Fizemos o nosso html do projeto.
-0.0.1 - 10/04/2024
-Desencvolvemos o Figma prototipo do nosso projeto.
+- **0.2.2 - 22/05/2024**
+  - Montamos a versão atual do projeto.
+  - MUDANÇA: Conectamos a API ao banco de dados e ao nosso React.
+
+- **0.2.1 - 10/05/2024**
+  - MUDANÇA: Desenvolvemos a nossa API.
+
+- **0.2.0 - 01/05/2024**
+  - MUDANÇA: Desenvolvemos o feed infinito.
+  - ADD: Desenvolvemos o nosso banco de dados.
+
+- **0.1.1 - 20/04/2024**
+  - CONSERTADO: Convertamos o nosso projeto para React.
+
+- **0.1.0 - 15/04/2024**
+  - Desenvolvemos o protótipo no Figma do nosso projeto.
+  - MUDANÇA: Fizemos o HTML do projeto.
+
+- **0.0.1 - 10/04/2024**
+  - Desenvolvemos o protótipo no Figma do nosso projeto.
+</p>
+
 ## 📋 Licença/License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">AquaCicle</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva, Felipi Amorim e João Albuquerque </a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
