@@ -61,6 +61,8 @@ Além disso, utilizamos as seguintes ferramentas para colocar nosso site no ar:
 - Netlify para conectar todas as partes
 
 Com todos os sensores devidamente conectados, conseguimos colocar nosso site no ar com sucesso.
+</p>
+
 <br><br>
 ##🗃 Histórico de Lançamentos
 <br><br>
@@ -84,7 +86,7 @@ Com todos os sensores devidamente conectados, conseguimos colocar nosso site no 
 
 - **0.0.1 - 10/04/2024**
   - Desenvolvemos o protótipo no Figma do nosso projeto.
-</p>
+
 
 ## 📋 Licença/License
 
