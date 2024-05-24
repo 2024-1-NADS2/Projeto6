@@ -96,16 +96,43 @@ const LinkCadastro = styled(Link)`
 `;
 
 const Login = () => {
+    const [Email, setEmail] = useState('');
+    const [SenhaNova, setSenhaNova] = useState('');
+    const [ConfirmarSenha, setConfirmarSenha] = useState('');
     const navigate = useNavigate();
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
 
-    const handleLogin = (e) => {
+    const handleLogin = async (e) => {
         e.preventDefault();
-        if (email && password) {
-            navigate('/feed');
-        } else {
-            alert('Por favor, preencha todos os campos.');
+        if (SenhaNova !== ConfirmarSenha) {
+            alert("As senhas não coincidem. Por favor, tente novamente.");
+            return;
+        }
+    
+        const response = await fetch('https://apithuindercat-feacp20240519232636.azurewebsites.net/api/Servidor/NovaSenha', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                email: Email,
+                NovaSenha_hash: SenhaNova
+            })
+        });
+    
+        if (!response.ok) {
+            // Se a resposta não for bem-sucedida, exiba uma mensagem de erro
+            alert("Erro ao alterar a senha. Por favor, tente novamente mais tarde.");
+            return;
+        }
+    
+        try {
+            // Tente analisar o JSON apenas se a resposta for bem-sucedida
+            const data = await response.json();
+            alert(data.message);
+            navigate("/"); // Redireciona para a página inicial após o sucesso
+        } catch (error) {
+            // Se houver um erro ao analisar o JSON, exiba uma mensagem de erro
+            alert("Erro ao processar a resposta do servidor. Por favor, tente novamente mais tarde.");
         }
     };
 
@@ -119,8 +146,9 @@ const Login = () => {
                             type='email' 
                             placeholder='Digite seu email' 
                             required 
-                            value={email} 
-                            onChange={(e) => setEmail(e.target.value)} 
+                            value={Email} 
+                            onChange={e => setEmail(e.target.value)} 
+                            
                         />
                     </CaixaEntrada>
                     <CaixaEntrada>
@@ -128,8 +156,9 @@ const Login = () => {
                             type='password' 
                             placeholder='Digite sua senha' 
                             required 
-                            value={password} 
-                            onChange={(e) => setPassword(e.target.value)} 
+                            value={SenhaNova} 
+                            onChange={e => setSenhaNova(e.target.value)} 
+                            
                         />
                     </CaixaEntrada>
                     <CaixaEntrada>
@@ -137,8 +166,8 @@ const Login = () => {
                             type='password' 
                             placeholder='Confirme a sua senha' 
                             required 
-                            value={password} 
-                            onChange={(e) => setPassword(e.target.value)} 
+                            value={ConfirmarSenha} 
+                            onChange={e => setConfirmarSenha(e.target.value)} 
                         />
                     </CaixaEntrada>
                     <CaixaLembrarEsqueceu>

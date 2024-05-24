@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import Postagem from '../components/Postagem3';
+import Postagem from '../components/PostagemFeed';
 import GlobalStyle from '../styles/GlobalStyles';
 import Chat from '../components/Chat';
 

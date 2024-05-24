@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import placeholderImage from '../assets/Post1.jpg'
+import placeholderImage from '../assets/img_logo_sos (2).png'
 
 const CenteredContainer = styled.div`
     display: flex;

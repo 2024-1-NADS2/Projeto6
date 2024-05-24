@@ -10,8 +10,8 @@ const Container = styled.div`
 const ProfileInfoContainer = styled.div`
     display: flex; /* Usando flexbox para alinhar itens horizontalmente */
     align-items: center; /* Alinhando itens verticalmente ao centro */
-    width: 100%;
-    max-width: 790px; /* Definindo largura máxima */
+    width: 80%;
+    max-width: 560px; /* Definindo largura máxima */
     background-color: #ffffff; /* Fundo branco */
     border-radius: 10px; /* Borda arredondada */
     padding: 20px; /* Espaçamento interno */
@@ -39,7 +39,7 @@ const ProfileImage = styled.img`
     width: 100px; /* Definindo largura da imagem */
     height: 100px; /* Definindo altura da imagem */
     border-radius: 50%; /* Bordas arredondadas */
-    border: 2px solid #007bff; /* Borda azul */
+    border: 2px solid white; /* Borda azul */
     
     @media screen and (max-width: 768px) {
         width: 80px; /* Reduzindo o tamanho da imagem em telas menores */
@@ -87,6 +87,7 @@ function PerfilText({ images }) {
 }
 
 export default PerfilText;
+
 
 
 

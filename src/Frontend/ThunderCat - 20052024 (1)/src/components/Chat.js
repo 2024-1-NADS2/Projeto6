@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ContainerChat = styled.div`
     position: fixed;
     bottom: 0;
-  right: 0; /* Muda a posição para o canto direito */
+    right: 0;
     width: 300px;
     height: ${({ isAberto }) => (isAberto ? '400px' : '40px')};
     background-color: #f1f1f1;
@@ -14,6 +14,16 @@ const ContainerChat = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        right: 0;
+        border-radius: 0;
+    }
+
+    @media (max-width: 480px) {
+        height: ${({ isAberto }) => (isAberto ? '80%' : '40px')};
+    }
 `;
 
 const CabecalhoChat = styled.div`
@@ -26,6 +36,10 @@ const CabecalhoChat = styled.div`
     padding: 0 10px;
     border-radius: 10px 10px 0 0;
     cursor: pointer;
+
+    @media (max-width: 768px) {
+        border-radius: 0;
+    }
 `;
 
 const CorpoChat = styled.div`
@@ -54,6 +68,10 @@ const ContainerInputChat = styled.div`
     border-top: 1px solid #ccc;
     background-color: #f9f9f9;
     border-radius: 0 0 10px 10px;
+
+    @media (max-width: 768px) {
+        border-radius: 0;
+    }
 `;
 
 const InputChat = styled.input`
@@ -66,15 +84,15 @@ const InputChat = styled.input`
 const BotaoEnviar = styled.button`
     padding: 10px;
     margin-left: 5px;
-    background-color: #007bff;
+    background-color: #64B3CC;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 
-&:hover {
-    background-color: #0056b3;
-}
+    &:hover {
+        background-color: #64B3CC;
+    }
 `;
 
 const Chat = () => {
@@ -130,6 +148,7 @@ const Chat = () => {
 };
 
 export default Chat;
+
 
 
 

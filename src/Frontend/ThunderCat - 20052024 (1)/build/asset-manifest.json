@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85269a43.css",
+    "main.js": "/static/js/main.3ef9ee0c.js",
+    "static/js/511.f950d8ac.chunk.js": "/static/js/511.f950d8ac.chunk.js",
+    "static/media/post3.jpg": "/static/media/post3.e1f148f949467772f8eb.jpg",
+    "static/media/Post1.jpg": "/static/media/Post1.3dd89a38f5105c277935.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.7f7cd15554410fe9b8f0.jpg",
+    "static/media/pexels-pixabay-45201.jpg": "/static/media/pexels-pixabay-45201.2e9b1ff582728148b4a7.jpg",
+    "static/media/pexels-kowalievska-1170986.jpg": "/static/media/pexels-kowalievska-1170986.a465b86e62dddbe01a3a.jpg",
+    "static/media/pexels-ingewallu-177809.jpg": "/static/media/pexels-ingewallu-177809.19c25ad33cab4ce2d480.jpg",
+    "static/media/post2.jpg": "/static/media/post2.19c25ad33cab4ce2d480.jpg",
+    "static/media/img_logo_sos (2).png": "/static/media/img_logo_sos (2).83e6ce7e9a9f0927c104.png",
+    "static/media/Logo Azul PNG.png": "/static/media/Logo Azul PNG.6bb0af5d961814a71793.png",
+    "static/media/Logo Escrito 2 Azul PNG.png": "/static/media/Logo Escrito 2 Azul PNG.8dab07a39d4fadfc2d7f.png",
+    "static/media/Logo Escrito 2 Branco PNG.png": "/static/media/Logo Escrito 2 Branco PNG.e81d7aa86e2ac66999e3.png",
+    "index.html": "/index.html",
+    "main.85269a43.css.map": "/static/css/main.85269a43.css.map",
+    "main.3ef9ee0c.js.map": "/static/js/main.3ef9ee0c.js.map",
+    "511.f950d8ac.chunk.js.map": "/static/js/511.f950d8ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85269a43.css",
+    "static/js/main.3ef9ee0c.js"
+  ]
+}
