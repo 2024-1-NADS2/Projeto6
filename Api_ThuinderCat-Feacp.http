@@ -1,0 +1,6 @@
+@Api_ThuinderCat_Feacp_HostAddress = http://localhost:5293
+
+GET {{Api_ThuinderCat_Feacp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
