@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using ServidorExemplo.Data;
 using AutoMapperUser;
+using Microsoft.IdentityModel.Tokens;
+using System.Configuration;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,3 +43,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

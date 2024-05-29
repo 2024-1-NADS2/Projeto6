@@ -334,6 +334,38 @@ namespace ServidorExemplo.Controllers
         }
 
         // Restante do código permanece inalterado
+        [HttpPost("NovaSenha")]
+        public async Task<IActionResult> ChangePassword([FromBody] NovaSenha senha)
+        {
+            var builder = new MySqlConnectionStringBuilder
+            {
+                Server = "thundercat.mysql.database.azure.com",
+                Database = "thundercat",
+                UserID = "adminthundercat",
+                Password = "thundercat2023!",
+                SslMode = MySqlSslMode.Required,
+            };
+            using (var conn = new MySqlConnection(builder.ConnectionString))
+            {
+                await conn.OpenAsync();
+
+                using (var command = conn.CreateCommand())
+                {
+                    command.CommandText = "UPDATE usuario SET senha_hash = @NewPassword WHERE email = @Email";
+                    command.Parameters.AddWithValue("@NewPassword", senha.NovaSenha_hash);
+                    command.Parameters.AddWithValue("@Email", senha.email);
+
+                    int rowCount = await command.ExecuteNonQueryAsync();
+
+                    if (rowCount == 0)
+                    {
+                        return StatusCode(500, new { message = "Erro ao atualizar a senha" });
+                    }
+                }
+            }
+
+            return Ok(new { message = "Senha atualizada com sucesso" });
+        }
 
 
 
